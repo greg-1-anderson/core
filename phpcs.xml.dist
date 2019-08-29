@@ -20,7 +20,7 @@
 
   <!-- Exclude third-party code maintained within core that does not follow our standards. -->
   <!-- @todo This rule may be removed when https://www.drupal.org/node/1848264 is resolved. -->
-  <exclude-pattern>./core/lib/Drupal/Component/Diff/</exclude-pattern>
+  <exclude-pattern>./component/Diff/</exclude-pattern>
 
   <!-- Only include specific sniffs that pass. This ensures that, if new sniffs are added, HEAD does not fail.-->
   <!-- Drupal sniffs -->

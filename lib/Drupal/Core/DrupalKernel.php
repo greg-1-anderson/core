@@ -1259,9 +1259,7 @@ class DrupalKernel implements DrupalKernelInterface, TerminableInterface {
     // - Element
     // - Entity
     // - Plugin
-    foreach (['Core', 'Component'] as $parent_directory) {
-      $path = 'core/lib/Drupal/' . $parent_directory;
-      $parent_namespace = 'Drupal\\' . $parent_directory;
+    foreach (['Drupal\\Core' => 'core/lib/Drupal/Core', 'Drupal\\Component' => 'component/'] as $parent_namespace => $path) {
       foreach (new \DirectoryIterator($this->root . '/' . $path) as $component) {
         /** @var $component \DirectoryIterator */
         $pathname = $component->getPathname();

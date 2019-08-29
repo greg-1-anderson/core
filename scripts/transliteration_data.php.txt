@@ -17,7 +17,7 @@
  *   input data from various sources in sub-directories below where this file
  *   is located. The data inputs are as follows:
  *   - Existing Drupal Core transliteration data: Sub-directory 'data'; comes
- *     from core/lib/Drupal/Component/Transliteration/data
+ *     from component/Transliteration/data
  *   - Midgardmvc data: Sub-directory 'utf8_to_ascii_db'; download from
  *     https://github.com/bergie/midgardmvc_helper_urlize/downloads
  *   - CPAN Text-Unidecode data: Sub-directory 'Unidecode'; download from
